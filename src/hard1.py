@@ -1,5 +1,3 @@
-import sys
-sys.path.append("../")
 from utils import original_dict
 
 def encrypt(phrase: list[str], shift: int) -> list[str]:

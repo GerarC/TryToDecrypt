@@ -1,24 +1,24 @@
 # from hard.hard2 import main
 
 def main():
-    chosen = int(input('Write a Level (1-C): '), 16)
+    chosen = int(input('Write a Level (1-B): '), 16)
     app: function = lambda: 1
 
     match chosen:
         case 0x1: # Hard
-           from hard.hard1 import app
+            from hard1 import app
         case 0x2:
-           from hard.hard2 import app
+            from hard2 import app
         case 0x3:
-            pass
+            from hard3 import app
         case 0x4:
-            pass
+            from hard4 import app
         case 0x5:
             pass
         case 0x6:
             pass
         case 0x7: # Too Much!
-            pass
+            from too_much1 import app
         case 0x8:
             pass
         case 0x9:
